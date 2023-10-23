@@ -4,9 +4,10 @@ const Contenedor = styled.div`
   color: #fff;
   font-family: "Lato", sans-serif;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1rem;
   margin-top: 30px;
+  padding-bottom: 2rem;
 `;
 const Texto = styled.p``;
 const Precio = styled.p`
