@@ -9,8 +9,21 @@ const Contenedor = styled.div`
   margin-top: 30px;
   padding-bottom: 2rem;
 `;
-const Texto = styled.p``;
+const Texto = styled.p`
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  background-color: #00365e;
+  padding: 5px;
+
+  border-radius: 10px;
+  span {
+    font-weight: 700;
+  }
+`;
 const Precio = styled.p`
+  background-color: #00365e;
+  padding: 5px;
+  border-radius: 10px;
   font-size: 24px;
   span {
     font-weight: 700;
@@ -44,7 +57,7 @@ const Resultado = ({ cotizacion }) => {
           Precio mas bajo del dia:<span> {LOWDAY}</span>{" "}
         </Texto>
         <Texto>
-          Variacion ultimas 24 horas:<span> {CHANGEPCT24HOUR}</span>{" "}
+          Variación ultimas 24 horas:<span> {CHANGEPCT24HOUR}</span>{" "}
         </Texto>
         <Texto>
           Ultima actualización:<span> {LASTUPDATE}</span>{" "}
